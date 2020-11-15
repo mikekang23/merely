@@ -9,11 +9,11 @@ module.export = sequelize.define("User", {
   },
   name: Sequelize.STRING(100),
   email: {
-    type: DataTypes.TEXT,
+    type: Sequelize.DataTypes.TEXT,
     unique: true,
   },
   hashedPassword: {
-    type: DataTypes.STRING(64),
+    type: Sequelize.DataTypes.STRING(64),
     is: /^[0-9a-f]{64}$/i
   },
   createdAt: Sequelize.DATE,
