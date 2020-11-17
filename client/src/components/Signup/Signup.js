@@ -13,7 +13,7 @@ const Signup = () => {
       <form className="form-signin">
         <p>Let's get you signed up!</p>
         <label for="inputEmail" className="sr-only">Email address</label>
-        <input type="email" id="inputEmail" className="form-control" placeholder="Email address" required="" autofocus="" />
+        <input type="email" id="inputEmail" className="form-control" placeholder="Email address" required="" autoFocus="" />
         <label for="inputPassword" className="sr-only">Password</label>
         <input type="password" id="inputPassword" className="form-control" placeholder="Password" required="" />
         <button className="btn btn-lg btn-block sign-in-btn" type="submit">Sign Up</button>
